@@ -8,7 +8,9 @@ Decision tree is a classification method that splits data into two subsets based
 
 ![Decision tree](decision_tree.png)
 
-## Digit Recognition
+## Neural Network for Digits Recognition
+
+Neural network is a multi-layer perceptron with a very wide and deep set of hyperparameters that can find solutions to complex problems. 
 
 ### Fragment of the Test Dataset
 
@@ -18,7 +20,9 @@ Decision tree is a classification method that splits data into two subsets based
 
 ![Digits result](digits_result.png)
 
-## Face Recognition
+## Support-Vector Machine (SVM) for Face Recognition
+
+Support vector machine is a supervised learning method that is used to train a neural network model that is able to find the relationship between two given features. In this example it acts as a classification method that uses the features extracted from face images to classify different people into different categories. 
 
 ### Fragment of the Test Dataset
 
