@@ -33,7 +33,7 @@ def generate_images(prompt, steps, guidance, pipe_name):
         num_inference_steps=steps,
         guidance_scale=guidance
     ).images
-    return images
+    return images[0]
 
 # Create the Gradio interface
 interface = gr.Interface(
