@@ -124,6 +124,20 @@ Deep dreaming is the process of generating images of an artistic style using com
 
 ![Final Dream](results/final_dream.png)
 
+# Image Generation
+
+## Stable Diffusion
+
+Stable diffusion is a generative model that uses a diffusion process to generate images. It is based on the idea of using a diffusion process to generate images from random noise.
+
+### Example
+
+Model: "stabilityai/sdxl-turbo"
+
+Prompt: "a cyberpunk cat wearing VR goggles"
+
+![Stable Diffusion](image_generation/sdxl_turbo_cat.png)
+
 # Sources
 
 - [https://nbviewer.jupyter.org/github/ogrisel/notebooks/blob/master/Labeled%20Faces%20in%20the%20Wild%20recognition.ipynb](https://nbviewer.jupyter.org/github/ogrisel/notebooks/blob/master/Labeled%20Faces%20in%20the%20Wild%20recognition.ipynb)
