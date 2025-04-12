@@ -15,4 +15,4 @@ image = pipe(
     guidance_scale=0.0  # Disable classifier-free guidance
 ).images[0]
 
-image.save("sdxl_output.png")
+image.save("openjourney_output.png")
