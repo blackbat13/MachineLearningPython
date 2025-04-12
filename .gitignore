@@ -131,3 +131,5 @@ dmypy.json
 .idea
 
 *.sqlite3
+.gradio
+.venv*

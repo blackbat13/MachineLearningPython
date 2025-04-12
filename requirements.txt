@@ -13,4 +13,5 @@ openai
 chatterbot
 chatterbot_corpus
 gradio
+accelerate
 # tensorflow[and-cuda]
