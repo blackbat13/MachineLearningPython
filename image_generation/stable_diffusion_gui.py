@@ -1,4 +1,4 @@
-# pip install transformers diffusers torch
+# pip install transformers diffusers torch gradio accelerate
 
 from diffusers import AutoPipelineForText2Image
 import torch
