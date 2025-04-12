@@ -12,4 +12,5 @@ accelerate
 openai
 chatterbot
 chatterbot_corpus
+gradio
 # tensorflow[and-cuda]
