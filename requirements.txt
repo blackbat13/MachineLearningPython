@@ -4,5 +4,12 @@ numpy
 pandas
 matplotlib
 keras
-tensorflow
 imageio
+diffusers
+transformers
+torch
+accelerate
+openai
+chatterbot
+chatterbot_corpus
+# tensorflow[and-cuda]
