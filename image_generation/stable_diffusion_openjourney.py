@@ -11,7 +11,7 @@ pipe = DiffusionPipeline.from_pretrained(
 
 image = pipe(
     prompt="a cyberpunk cat wearing VR goggles",
-    num_inference_steps=2,  # Turbo models work with just 2-4 steps
+    num_inference_steps=20,
     guidance_scale=0.0  # Disable classifier-free guidance
 ).images[0]
 

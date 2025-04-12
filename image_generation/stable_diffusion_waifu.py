@@ -4,7 +4,7 @@ from diffusers import StableDiffusionPipeline
 import torch
 
 pipe = StableDiffusionPipeline.from_pretrained(
-    "hakurei/waifu-diffusion-v1-4", 
+    "hakurei/waifu-diffusion", 
     safety_checker=None  # Disable content filtering
 ).to("cuda" if torch.cuda.is_available() else "cpu")
 
