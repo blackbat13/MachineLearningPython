@@ -1,11 +1,12 @@
 # AnimateDiff Example
 from diffusers import MotionAdapter, AnimateDiffPipeline
+import torch
 
 adapter = MotionAdapter.from_pretrained("guoyww/animatediff-motion-adapter-v1-5-2")
 pipe = AnimateDiffPipeline.from_pretrained(
     "emilianJR/epiCRealism", 
     motion_adapter=adapter
-).to("cuda")
+).to("cuda" if torch.cuda.is_available() else "cpu")
 
 # Generate video frames
 output = pipe(
